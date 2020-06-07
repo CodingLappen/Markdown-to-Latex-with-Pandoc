@@ -1,2 +1,15 @@
-# Markdown-to-Latex-with-Pandoc
-Basically just a changed template, besides that it is the Markdown to Beamer with Pandoc project
+# Markdown-to-Beamer-with-Pandoc
+
+Add the metadata to main.md
+
+Notes: 
+  https://pandoc.org/MANUAL.html#frame-attributes-in-beamer
+  When using a predefined a language for the syntax highlighting, which
+  pandoc does not recognize you might consider using 
+  \~\~\~ \{language=<your language>\}
+  \~\~\~
+  instead of 
+  \`\`\`<your language>
+
+  \`\`\`
+  
